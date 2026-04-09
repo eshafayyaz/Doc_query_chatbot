@@ -1,0 +1,17 @@
+[project]
+name = "doc-query-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit>=1.32.0",
+    "pypdf>=4.0.0",
+    "langchain-text-splitters>=0.0.1",
+    "langchain-huggingface>=0.0.1",
+    "langchain-community>=0.0.1",
+    "python-dotenv>=1.0.0",
+    "groq>=0.4.0",
+    "faiss-cpu>=1.7.4",
+    "sentence-transformers>=2.2.0",
+]
